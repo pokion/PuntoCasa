@@ -1,0 +1,46 @@
+:root{
+	--punto-red: #990000;
+}
+body{
+	font-size: 20px;
+}
+.redPunto-color{
+	color: var(--punto-red);
+}
+.mobileNavMargin{
+	margin-top: 70px;
+}
+.sidenav>li, .nest{
+	background-color: #EBEAEA;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	position: relative;
+}
+.sidenav>li:before{
+	content: '';
+	background-color: var(--punto-red);
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 10px;
+}
+.nest{
+	padding-left: 30px;
+}
+.nest:before{
+	content: '';
+	background-color: var(--punto-red);
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	height: 100%;
+	width: 10px;
+}
+.nestOff{
+	height: 0px;
+	overflow: hidden;
+}
