@@ -4,4 +4,6 @@ $(document).ready(function(){
 	$('.nestActivator').click(function(){
 		$('.navNest').toggleClass('nestOff');
 	});
-})
+	$('.materialboxed').materialbox();
+	$('.collapsible').collapsible();
+});

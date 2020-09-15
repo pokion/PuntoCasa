@@ -15,6 +15,9 @@ html{
 .redPunto-color{
 	color: var(--punto-red);
 }
+.redPunto-bg{
+	background-color: var(--punto-red);
+}
 .mobileNavMargin{
 	margin-top: 70px;
 }
@@ -64,10 +67,38 @@ html{
 	margin-top: 60px;
 	margin-bottom: 40px;
 }
+.line-punto{
+	background-color: var(--punto-red);
+	width: 100%;
+	height: 2px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .footer{
 	width: 90%;
 	margin: auto;
 }
 .contactIco{
 	margin-right: 10px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.responsive-img{
+	width: 100%;
+ 	height: auto;
+}
+.noPadding{
+	padding: 0px !important;
 }

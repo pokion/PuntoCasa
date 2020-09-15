@@ -1,0 +1,25 @@
+.infoBox{
+	border: black solid 2px;
+	padding: 10px;
+	overflow: hidden;
+	transition: all 0.4s linear;
+}
+.infoHeader{
+	font-weight: bold;
+}
+.infoButton{
+	background-color: white;
+}
+.infoBody{
+	margin-top: 50px;
+	transition: all 0.4s linear;
+}
+.off{
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.4s linear;
+}
+.on{
+	overflow: visible;
+	transition: all 0.4s linear;
+}

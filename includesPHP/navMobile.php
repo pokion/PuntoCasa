@@ -26,13 +26,13 @@
 			<i class="fas fa-times"></i>
 		</a>
 		<li class="mobileNavMargin">Home</li>
-		<li>Vuoi vendere casa</li>
-		<li>Chi siamo</li>
+		<li><a href="./vuoivenderecasa.php">Vuoi vendere casa</a></li>
+		<li><a href="./chisiamo.php">Chi siamo</a></li>
 		<li class="nestActivator">Altro  <i class="fas fa-caret-down"></i></li>
 		<div class="navNest nestOff">
 			<li class="nest">Immobili in vendita</li>
 			<li class="nest">9 errori da evitare per vendere casa</li>
-			<li class="nest"><a href="./html/contatti.php">Contatti</a></li>
+			<li class="nest"><a href="./contatti.php">Contatti</a></li>
 			<li class="nest">Privacy Policy</li>
 		</div>
 	</ul>

@@ -52,7 +52,7 @@
 	<main>
 		<div class="startSection valign-wrapper">
 			<div class="mainText">
-				<p class="white-text">"Ci occupiamo di case come delle persone che le vivono."</p>
+				<p class="white-text flow-text">"Ci occupiamo di case come delle persone che le vivono."</p>
 			</div>
 
 			<div class="media">
