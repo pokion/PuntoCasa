@@ -1,8 +1,6 @@
 .infoBox{
 	border: black solid 2px;
-	padding: 10px;
-	overflow: hidden;
-	transition: all 0.4s linear;
+	padding: 20px;
 }
 .infoHeader{
 	font-weight: bold;
@@ -12,14 +10,8 @@
 }
 .infoBody{
 	margin-top: 50px;
-	transition: all 0.4s linear;
+	display: none;
 }
-.off{
-	height: 0px;
-	overflow: hidden;
-	transition: all 0.4s linear;
-}
-.on{
-	overflow: visible;
-	transition: all 0.4s linear;
+div[body="show"]>i{
+	transform: rotate(180deg);
 }

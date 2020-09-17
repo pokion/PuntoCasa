@@ -31,7 +31,7 @@
 		<li class="nestActivator">Altro  <i class="fas fa-caret-down"></i></li>
 		<div class="navNest nestOff">
 			<li class="nest">Immobili in vendita</li>
-			<li class="nest">9 errori da evitare per vendere casa</li>
+			<li class="nest"><a href="./9errori.php">9 errori da evitare per vendere casa</a></li>
 			<li class="nest"><a href="./contatti.php">Contatti</a></li>
 			<li class="nest">Privacy Policy</li>
 		</div>

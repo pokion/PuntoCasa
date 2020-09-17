@@ -5,5 +5,4 @@ $(document).ready(function(){
 		$('.navNest').toggleClass('nestOff');
 	});
 	$('.materialboxed').materialbox();
-	$('.collapsible').collapsible();
 });
